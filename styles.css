@@ -1,0 +1,51 @@
+body {
+	font-family: fantasy;
+	background-color: #f3f3f3;
+	
+}
+
+#myCanvas {
+	margin-top:10%;
+	position: relative;
+	width: 720px;
+	left: 25%;
+	border: 5px solid #8f8f8f;
+	background-color: black;
+}
+
+#title-text {
+	position:absolute;
+	font-size: 60px;
+	
+}
+
+#score-text {
+	position:absolute;
+	font-size: 30px;
+	left: 2%;
+	top: 15%;
+}
+
+#game-over-text {
+	display:none;
+	hidden: true;
+	font-size:70px;
+	z-index:10;
+	margin-top: 10%;
+	margin-left: 40%;
+	color: blue;
+	position: absolute;
+	
+}
+#restart-text {
+	
+	display:none;
+	hidden: true;
+	font-size:35px;
+	z-index:10;
+	margin-top: 16%;
+	margin-left: 36%;
+	color: blue;
+	position: absolute;
+	
+}
